@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>shopping cart demo</title>
+    <style></style>
+</head>
+
+<body ng-controller='CartController'> 
+    
+    <h1>Your Shopping Cart</h1>
+
+    <div ng-repeat='item in items'>
+        <span>{{item.title}}</span>
+        <input ng-model='item.quantity'>
+        <span>{{item.price | currency}}</span> 
+        <span>{{item.price * item.quantity | currency}}</span> 
+        <button ng-click="remove($index)">Remove</button>
+    </div>
+
+   
+
+<script src="static/js/angular.min.js"></script>
+<script src="static/js/controllers.js"></script>
+
+</body>
+</html>

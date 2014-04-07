@@ -12,9 +12,18 @@ handlers:
 - url: /static
   static_dir: static
 
-- url: .*
+- url: /
   static_files: index.html
-  upload: index.html  
+  upload: index.html 
+
+- url: /hello 
+  static_files: hello.html
+  upload: hello.html
+
+- url: /cart
+  static_files: cart.html
+  upload: cart.html  
+
 
 libraries:
 - name: webapp2
