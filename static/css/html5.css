@@ -1,0 +1,53 @@
+html, body {
+	background: rgba(0,0,0,0);
+}
+
+#controls {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	border: 1px inset #111;
+	color: #fff;
+}
+
+#inst {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding: 20px;
+	border: 1px inset #111;
+	color: #fff;
+	text-align: center;
+	opacity: .5;
+	border: 0;
+}
+
+.side {
+	color: #fff;
+	background-color: #fff;
+	font-size: 13px;
+	cursor: pointer;
+	height: 720px;
+	width: 720px;
+	overflow: hidden;
+	box-sizing: border-box;
+	backface-visibility:hidden;
+	-webkit-backface-visibility:hidden; /* Chrome and Safari */
+	-moz-backface-visibility:hidden; /* Firefox */
+	-ms-backface-visibility:hidden; /* Internet Explorer */
+}
+
+.side video {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: #000;
+	z-index: 1;
+	backface-visibility:hidden;
+	-webkit-backface-visibility:hidden; /* Chrome and Safari */
+	-moz-backface-visibility:hidden; /* Firefox */
+	-ms-backface-visibility:hidden; /* Internet Explorer */
+}

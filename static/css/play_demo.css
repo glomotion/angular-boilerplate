@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  font-family: 'Roboto';
+  line-height: 1.4;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+
+  background: #0d0d0d;
+  color: #858789;
+}
+#radial-grad {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-height: 720px;
+
+  background-image: -webkit-radial-gradient(50% 50%, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: -moz-radial-gradient(50% 50%, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: -ms-radial-gradient(50% 50%, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: -o-radial-gradient(50% 50%, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: radial-gradient(circle at 50% 50%, rgba(255,255,255,.3), rgba(255,255,255,0))
+}
+#playstore-logo {
+  position: absolute;
+  z-index: 9;
+  bottom: 50px;
+  left: 50px;
+  background: url(../img/play_logo_x2.png) no-repeat;
+  background-size: 100% auto;
+  width: 215px;
+  padding: 55px 0 0 0;
+  font-size: 13px;
+}
+#playstore-logo a {
+  color: inherit;
+}
+#make-your-own {
+  z-index: 9;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  padding: 15px 20px;
+  color: white;
+  background: #4285f4;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 500;
+}
+#cube-contnr {
+  width: 100%;
+  height: 940px;
+  position: absolute;
+  top: calc(50% - 470px); 
+  left: 0;
+}
