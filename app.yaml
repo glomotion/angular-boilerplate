@@ -24,6 +24,10 @@ handlers:
   static_files: cart.html
   upload: cart.html  
 
+- url: /various
+  static_files: various.html
+  upload: various.html  
+
 
 libraries:
 - name: webapp2

@@ -22,7 +22,7 @@
     </style>
 </head>
 
-<body ng-controller='CartController'> 
+<body ng-controller='VariousController'> 
     
     <h1>Your Shopping Cart</h1>
 
@@ -87,12 +87,10 @@
     
     <hgroup>
         <h4>a simple toggle button with classes &amp; text changes</h4>
-        <h3>{{!patient.archived && 'Off' || 'On'}}</h3>
-        <h1>
-            <a href="" ng-class="{true: 'primary', false: 'danger'}[!patient.archived]" ng-click="patient.archived = !patient.archived">
-                {{!patient.archived && 'Archive' || 'Unarchive'}}
-            </a>
-        </h1>    
+        <h3>{{patient.archived && 'On' || 'Off'}}</h3>
+        <button ng-class="{true: 'primary', false: 'danger'}[!patient.archived]" ng-click="patient.archived = !patient.archived">
+            {{patient.archived && 'Unarchive' || 'Archive'}}
+        </button>
     </hgroup>
     
 
