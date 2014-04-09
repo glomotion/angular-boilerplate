@@ -42,7 +42,7 @@
         <input ng-model='sundryItem.quantity'>
         <span>{{sundryItem.price | currency}}</span> 
         <span>{{sundryItem.price * sundryItem.quantity | currency}}</span> 
-        <button ng-click="remove($index)">Remove</button>
+        <button ng-click="sundryRemove($index)">Remove</button>
     </div>
 
     <p ng-bind="messages.moo"></p>  
@@ -88,7 +88,7 @@
     <hgroup>
         <h4>a simple toggle button with classes &amp; text changes</h4>
         <h3>{{patient.archived && 'On' || 'Off'}}</h3>
-        <button ng-class="{true: 'primary', false: 'danger'}[!patient.archived]" ng-click="patient.archived = !patient.archived">
+        <button ng-class="{true: 'primary', false: 'danger'}[patient.archived]" ng-click="patient.archived = !patient.archived">
             {{patient.archived && 'Unarchive' || 'Archive'}}
         </button>
     </hgroup>

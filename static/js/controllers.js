@@ -1,4 +1,7 @@
+// setup app Angular instance:
 var module = angular.module('myApp', []);
+
+
 var messages = {};
 messages.moo = 'moo cows go Mo0o0o';
 
@@ -7,11 +10,13 @@ var sundries = [
     {title: 'Hippopotamuses', quantity: 200, price: 12.95},
     {title: 'Cats', quantity: 6*6, price: 6.95}
 ];
+
 var students = [
     {name:'Mary Contrary', id:'1'}, 
     {name:'Jack Sprat', id:'2'}, 
     {name:'Jill Hill', id:'3'}
 ];
+
 var album = [
     {name:'Southwest Serenade', duration: '2:34'}, 
     {name:'Northern Light Waltz', duration: '3:21'},
@@ -20,7 +25,7 @@ var album = [
 
 module.controller('VariousController', function($scope) {
 
-    // console.log($scope);
+    console.log($scope);
 
     $scope.items = [
         {title: 'Paint pots', quantity: 8, price: 3.95},
@@ -33,6 +38,11 @@ module.controller('VariousController', function($scope) {
     $scope.remove = function(index) { 
         $scope.items.splice(index, 1);
     }
+
+    $scope.sundryRemove = function(index) { 
+        $scope.sundries.splice(index, 1);
+    }
+
 
     $scope.messages = messages;
 
@@ -49,7 +59,6 @@ module.controller('VariousController', function($scope) {
     $scope.toggleMenu = function() { 
         $scope.menuState.show = !$scope.menuState.show;
     };
-
 
 
 
