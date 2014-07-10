@@ -468,10 +468,10 @@
 	"buffers":
 	[
 		{
-			"file": "cart.html",
+			"file": "various.html",
 			"settings":
 			{
-				"buffer_size": 604,
+				"buffer_size": 2855,
 				"line_ending": "Unix"
 			}
 		},
@@ -479,7 +479,7 @@
 			"file": "static/js/controllers.js",
 			"settings":
 			{
-				"buffer_size": 514,
+				"buffer_size": 2161,
 				"line_ending": "Unix"
 			}
 		}
@@ -490,6 +490,10 @@
 		"height": 52.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: inst",
 				"Package Control: Install Package"
@@ -507,15 +511,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"intall",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 444.0
+		"width": 488.0
 	},
 	"console":
 	{
@@ -532,8 +532,9 @@
 	},
 	"file_history":
 	[
-		"/Users/timpaul/Desktop/GIT Repos/angular-boilerplate/main.py",
 		"/Users/timpaul/Desktop/GIT Repos/angular-boilerplate/app.yaml",
+		"/Users/timpaul/Desktop/GIT Repos/angular-boilerplate/hello.html",
+		"/Users/timpaul/Desktop/GIT Repos/angular-boilerplate/main.py",
 		"/Users/timpaul/Desktop/GIT Repos/angular-boilerplate/index.html",
 		"/Users/timpaul/Desktop/GIT Repos/angular-template-repo/static/js/angular.js",
 		"/Users/timpaul/Desktop/GIT Repos/angular-template-repo/app.yaml",
@@ -658,8 +659,7 @@
 		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/core/templates/console_files/_who.html",
 		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/settings/__init__.py",
 		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/core/static/js/app.js",
-		"/Users/timpaul/Desktop/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js",
-		"/Users/timpaul/Desktop/GIT Repos/rabbithole-dogfood/core/static/scss/_jqueryui.scss"
+		"/Users/timpaul/Desktop/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"
 	],
 	"find":
 	{
@@ -686,6 +686,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cart.",
+			"show",
+			"sundry-item",
+			"item",
+			"sundries",
 			"hello.",
 			"playTim",
 			"command-prompt",
@@ -808,12 +813,7 @@
 			"exten",
 			"session",
 			"scale(.7)",
-			"pulsate",
-			"scale(.8)",
-			"pulsate",
-			"animat",
-			"[alice-name]",
-			"$content.find('#command-prompt')"
+			"pulsate"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -836,23 +836,23 @@
 			[
 				{
 					"buffer": 0,
-					"file": "cart.html",
+					"file": "various.html",
 					"settings":
 					{
-						"buffer_size": 604,
+						"buffer_size": 2855,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								110,
-								110
+								1213,
+								1213
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -861,21 +861,27 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 1,
 					"file": "static/js/controllers.js",
 					"settings":
 					{
-						"buffer_size": 514,
+						"buffer_size": 2161,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								214,
-								214
+								688,
+								668
 							]
 						],
 						"settings":
@@ -910,11 +916,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.495188742949,
 			1.0
 		],
 		"rows":
