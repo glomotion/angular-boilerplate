@@ -471,7 +471,7 @@
 			"file": "cart.html",
 			"settings":
 			{
-				"buffer_size": 604,
+				"buffer_size": 2890,
 				"line_ending": "Unix"
 			}
 		},
@@ -479,7 +479,7 @@
 			"file": "static/js/controllers.js",
 			"settings":
 			{
-				"buffer_size": 514,
+				"buffer_size": 2161,
 				"line_ending": "Unix"
 			}
 		}
@@ -831,7 +831,6 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
@@ -839,15 +838,15 @@
 					"file": "cart.html",
 					"settings":
 					{
-						"buffer_size": 604,
+						"buffer_size": 2890,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								110,
-								110
+								0,
+								0
 							]
 						],
 						"settings":
@@ -867,15 +866,15 @@
 					"file": "static/js/controllers.js",
 					"settings":
 					{
-						"buffer_size": 514,
+						"buffer_size": 2161,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								214,
-								214
+								0,
+								0
 							]
 						],
 						"settings":
